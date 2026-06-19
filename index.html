@@ -13,13 +13,8 @@
   <header class="header" id="top">
     <div class="container header-inner">
       <a href="#top" class="brand" aria-label="Senora Asset Management home">
-        <svg class="brand-glyph" width="34" height="34" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-          <path d="M6 28 L16 14 L24 22 L34 8" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="34" cy="8" r="3.4" fill="currentColor"/>
-        </svg>
-        <span class="brand-name">Senora<small>Asset Management</small></span>
+        <img src="logo.png" alt="Senora Asset Management" />
       </a>
-
       <nav class="nav" id="nav">
         <a href="#top">Home</a>
         <a href="#about">About</a>
@@ -28,7 +23,6 @@
         <a href="#voices">Events</a>
         <a href="#contact">Contact</a>
       </nav>
-
       <a href="#contact" class="btn btn-solid header-cta">Invest with Confidence</a>
       <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
@@ -48,23 +42,17 @@
           <a href="#about" class="btn btn-line">Learn More</a>
         </div>
       </div>
-
       <div class="hero-panel" aria-hidden="true">
         <div class="orb"></div>
         <div class="chart-card">
-          <div class="chart-head">
-            <span>StaG Portfolio</span>
-            <span class="up">Long-Only ▲</span>
-          </div>
+          <div class="chart-head"><span>StaG Portfolio</span><span class="up">Long-Only ▲</span></div>
           <svg viewBox="0 0 320 140" class="spark" preserveAspectRatio="none">
-            <defs>
-              <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stop-color="var(--teal)" stop-opacity="0.35"/>
-                <stop offset="100%" stop-color="var(--teal)" stop-opacity="0"/>
-              </linearGradient>
-            </defs>
+            <defs><linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="var(--cyan)" stop-opacity="0.4"/>
+              <stop offset="100%" stop-color="var(--cyan)" stop-opacity="0"/>
+            </linearGradient></defs>
             <path d="M0,120 L40,108 L80,112 L120,84 L160,92 L200,58 L240,64 L280,30 L320,18 L320,140 L0,140 Z" fill="url(#fill)"/>
-            <path d="M0,120 L40,108 L80,112 L120,84 L160,92 L200,58 L240,64 L280,30 L320,18" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M0,120 L40,108 L80,112 L120,84 L160,92 L200,58 L240,64 L280,30 L320,18" fill="none" stroke="var(--green)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
           <div class="chart-foot">
             <div><b>Quality</b><span>Best-in-class</span></div>
@@ -74,13 +62,12 @@
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="stat-bar">
         <div class="stat"><b>100%</b><span>Large-Cap Focused</span></div>
+        <div class="stat"><b>15–20</b><span>Stock Portfolio</span></div>
         <div class="stat"><b>Long-Only</b><span>Investment Strategy</span></div>
         <div class="stat"><b>CAT III</b><span>SEBI-Registered AIF</span></div>
-        <div class="stat"><b>India</b><span>Centric Mandate</span></div>
       </div>
     </div>
   </section>
@@ -98,31 +85,66 @@
 
   <!-- ============ ABOUT ============ -->
   <section class="section" id="about">
-    <div class="container split">
-      <div class="split-text">
+    <div class="container">
+      <div class="about-intro">
         <span class="kicker">About Us</span>
         <h2>An India-focused, large-cap investment solution</h2>
         <p>Senora Asset Management — operating through the <strong>Senora AIF StaG Trust</strong> — is a
           SEBI-registered fund specializing in large-cap equity. We pair rigorous fundamental research
           with a patient, long-term horizon to build portfolios that endure.</p>
-        <a href="#stag" class="link-arrow">See how StaG works →</a>
       </div>
+
+      <!-- Founder -->
+      <div class="founder">
+        <div class="founder-photo"><img src="mridul.png" alt="Mridul Jalan, Founder &amp; Investment Manager" /></div>
+        <div class="founder-body">
+          <p class="role">Founder &amp; Investment Manager</p>
+          <h3>Mridul Jalan</h3>
+          <p>Mridul Jalan is the visionary behind Senora Asset Management. With a deep passion for equity
+            markets and a relentless focus on risk management, Mridul has built a reputation for consistently
+            delivering superior returns. His investment philosophy centers on long-term growth, concentrated
+            equity portfolios, and a disciplined approach to portfolio management. Having witnessed firsthand
+            the market's volatile nature, Mridul's focus on risk mitigation ensures that clients' investments
+            are well-protected during market fluctuations. As the leader of fund management and research, he
+            continues to guide the company's investment strategy, ensuring it evolves with market conditions
+            while staying true to its core principles.</p>
+        </div>
+      </div>
+
+      <!-- Mission & Vision -->
+      <div class="mv-grid">
+        <article class="mv-card">
+          <div class="mv-ico">🎯</div>
+          <h3>Mission</h3>
+          <p class="tagline">To create enduring wealth for our clients by identifying transformative opportunities before they become mainstream.</p>
+          <p>Our mission extends beyond delivering investment returns. We strive to generate long-term value
+            by anticipating emerging market trends, investing in high-quality businesses with strong
+            fundamentals, and managing risks with discipline and foresight. Through a rigorous,
+            research-driven investment approach, we help our clients navigate evolving market dynamics and
+            build sustainable wealth while consistently seeking superior risk-adjusted returns over the long term.</p>
+        </article>
+        <article class="mv-card">
+          <div class="mv-ico">🔭</div>
+          <h3>Vision</h3>
+          <p class="tagline">To redefine large-cap investing by seamlessly blending stability, growth, and innovation.</p>
+          <p>At Senora, we believe large-cap investments are more than a foundation for capital
+            preservation—they are powerful engines of long-term wealth creation. Our vision is to transform
+            the way investors perceive large-cap opportunities by combining the resilience of established
+            market leaders with the growth potential of tomorrow's innovators. Through differentiated
+            insights, disciplined execution, and a forward-looking investment philosophy, we aim to deliver
+            sustainable wealth creation while helping our clients navigate an ever-evolving market landscape
+            with confidence.</p>
+        </article>
+      </div>
+
+      <!-- Pillars -->
       <div class="pillars">
-        <article class="pillar">
-          <span class="pillar-no">01</span>
-          <h3>Quality</h3>
-          <p>We own best-in-class large-cap businesses with durable competitive advantages.</p>
-        </article>
-        <article class="pillar">
-          <span class="pillar-no">02</span>
-          <h3>Risk Management</h3>
-          <p>Capital preservation first — every position is sized and stress-tested with discipline.</p>
-        </article>
-        <article class="pillar">
-          <span class="pillar-no">03</span>
-          <h3>Long-Term Growth</h3>
-          <p>We stay invested through cycles to let compounding do the heavy lifting.</p>
-        </article>
+        <article class="pillar"><span class="pillar-no">01</span><h3>Quality</h3>
+          <p>We own best-in-class large-cap businesses with durable competitive advantages.</p></article>
+        <article class="pillar"><span class="pillar-no">02</span><h3>Risk Management</h3>
+          <p>Capital preservation first — every position is sized and stress-tested with discipline.</p></article>
+        <article class="pillar"><span class="pillar-no">03</span><h3>Long-Term Growth</h3>
+          <p>We stay invested through cycles to let compounding do the heavy lifting.</p></article>
       </div>
     </div>
   </section>
@@ -131,18 +153,51 @@
   <section class="section section-deep" id="stag">
     <div class="container">
       <div class="head center">
-        <span class="kicker light">The StaG Framework</span>
-        <h2>Analysis-driven investing, made repeatable</h2>
-        <p class="lead muted">A transformative framework for large-cap investing — designed to deliver
-          consistent outperformance with balanced risk. Four disciplined steps, applied every day.</p>
+        <span class="kicker">The StaG Framework</span>
+        <h2>What is StaG?</h2>
+        <p class="lead muted">StaG is our proprietary, transformative, analysis-driven framework for
+          large-cap investing — designed to deliver consistent outperformance with balanced risk. It is built
+          on <strong>earnings-based analysis</strong> rather than price, enabling us to identify opportunities
+          ahead of market consensus across four allocation pillars.</p>
       </div>
-      <div class="flow">
-        <div class="flow-step"><span class="flow-ico">⌕</span><h4>Screen</h4><p>Filter the large-cap universe for quality, scale, and financial strength.</p></div>
-        <div class="flow-step"><span class="flow-ico">⠿</span><h4>Track</h4><p>Continuously monitor performance, valuations, and market signals.</p></div>
-        <div class="flow-step"><span class="flow-ico">≋</span><h4>Analyse</h4><p>Stress-test fundamentals and weigh risk-reward with rigorous models.</p></div>
-        <div class="flow-step"><span class="flow-ico">↗</span><h4>Grow</h4><p>Allocate with conviction and let compounding work over the long run.</p></div>
+
+      <div class="stag-grid">
+        <article class="alloc-card" style="--c:var(--stag-structural)">
+          <div class="alloc-pct">65%</div>
+          <span class="alloc-tag">Structural</span>
+          <h4>Core anchors</h4>
+          <p>8–10 large-cap stocks with strong balance sheets, market leadership, and consistent earnings growth — the long-term core of the portfolio.</p>
+        </article>
+        <article class="alloc-card" style="--c:var(--stag-medium)">
+          <div class="alloc-pct">15%</div>
+          <span class="alloc-tag">Medium-Term</span>
+          <h4>Emerging dominance</h4>
+          <p>3–5 growth-oriented companies with emerging dominance or upcoming earnings breakthroughs.</p>
+        </article>
+        <article class="alloc-card" style="--c:var(--stag-contra)">
+          <div class="alloc-pct">10%</div>
+          <span class="alloc-tag">Contra</span>
+          <h4>Ahead of sentiment</h4>
+          <p>2–3 undervalued contrarian positions where deep research finds opportunity before the market does.</p>
+        </article>
+        <article class="alloc-card" style="--c:var(--stag-momentum)">
+          <div class="alloc-pct">10%</div>
+          <span class="alloc-tag">Momentum</span>
+          <h4>Tactical growth</h4>
+          <p>0–3 short-term, high-growth tactical selections driven by market dynamics and emerging trends.</p>
+        </article>
       </div>
-      <div class="center"><a href="#contact" class="btn btn-light">Learn More</a></div>
+
+      <div class="stag-note">
+        <span class="stag-chip"><b>15–20</b> focused holdings</span>
+        <span class="stag-chip">Pricing power &amp; strong operating cash flows</span>
+        <span class="stag-chip">Sustainable business models</span>
+        <span class="stag-chip">Avoids pharma &amp; commodity sectors</span>
+      </div>
+
+      <div style="display:flex;justify-content:center;width:100%">
+        <a href="#contact" class="btn btn-solid">Talk to Us About StaG</a>
+      </div>
     </div>
   </section>
 
@@ -150,42 +205,39 @@
   <section class="section" id="knowledge">
     <div class="container">
       <div class="head">
-        <div>
-          <span class="kicker">Knowledge Hub</span>
-          <h2>Insights, research &amp; perspective</h2>
-        </div>
+        <div><span class="kicker">Knowledge Hub</span><h2>Insights, research &amp; perspective</h2></div>
         <a href="knowledge.html" class="link-arrow">View all →</a>
       </div>
       <div class="cards">
-        <a class="card" href="newsletter.html">
+        <article class="card">
           <span class="tag">Newsletter</span>
-          <h3>Stag Times</h3>
-          <p>Our flagship monthly letter — the April 2026 edition is out now.</p>
-          <span class="link-arrow">Read →</span>
-        </a>
-        <a class="card" href="reflections.html">
+          <h3><a href="files/bc34dc_1bd851ffdede4221af39aed1623c7df7.pdf" target="_blank" rel="noopener">Stag Times — Apr 2026</a></h3>
+          <p>Curated market updates, investment trends, and expert insights delivered to your inbox.</p>
+          <a href="newsletter.html" class="link-arrow">View more →</a>
+        </article>
+        <article class="card">
           <span class="tag">Reflections</span>
-          <h3>Market Insights</h3>
-          <p>Thoughtful analysis on market trends, behaviour and long-term thinking.</p>
-          <span class="link-arrow">Read →</span>
-        </a>
-        <a class="card" href="reports.html">
+          <h3><a href="https://x.com/SenoraAIF/status/1966468342291546542" target="_blank" rel="noopener">This Week: 12 Sep 2025</a></h3>
+          <p>Quick, timely thoughts and market perspectives shared on X, in real time.</p>
+          <a href="reflections.html" class="link-arrow">View more →</a>
+        </article>
+        <article class="card">
           <span class="tag">Reports</span>
-          <h3>StaG Q2 FY26 Results Review</h3>
-          <p>A detailed breakdown of quarterly results across our coverage universe.</p>
-          <span class="link-arrow">Read →</span>
-        </a>
-        <a class="card" href="videos.html">
+          <h3><a href="files/bc34dc_80cc429ebd5a41d59619b5a4e85ad695.pdf" target="_blank" rel="noopener">StaG Q3 FY26 Results Review</a></h3>
+          <p>Analyses and performance reviews to help you make informed decisions.</p>
+          <a href="reports.html" class="link-arrow">View more →</a>
+        </article>
+        <article class="card">
           <span class="tag">Videos</span>
-          <h3>Decoding New-Age Tech</h3>
-          <p>Educational content unpacking the businesses shaping India's future.</p>
-          <span class="link-arrow">Watch →</span>
-        </a>
+          <h3><a href="https://www.youtube.com/watch?v=xhv1laVdews" target="_blank" rel="noopener">Decoding New-Age Tech</a></h3>
+          <p>Expert discussions and strategy breakdowns made easy to understand.</p>
+          <a href="videos.html" class="link-arrow">View more →</a>
+        </article>
       </div>
     </div>
   </section>
 
-  <!-- ============ TESTIMONIAL / EVENTS ============ -->
+  <!-- ============ TESTIMONIAL ============ -->
   <section class="section section-tint" id="voices">
     <div class="container voices">
       <span class="kicker">In Their Words</span>
@@ -204,7 +256,7 @@
     <div class="container cta-inner">
       <h2>Invest with confidence.</h2>
       <p>Partner with a research-driven, risk-managed fund built for the long term.</p>
-      <a href="#contact" class="btn btn-solid">Get in Touch</a>
+      <a href="#contact" class="btn btn-light">Get in Touch</a>
     </div>
   </section>
 
@@ -212,32 +264,33 @@
   <footer class="footer" id="contact">
     <div class="container footer-grid">
       <div>
-        <a href="#top" class="brand brand-light">
-          <svg class="brand-glyph" width="32" height="32" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-            <path d="M6 28 L16 14 L24 22 L34 8" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="34" cy="8" r="3.4" fill="currentColor"/>
-          </svg>
-          <span class="brand-name">Senora<small>Asset Management</small></span>
-        </a>
+        <a href="#top" class="brand"><img src="logo.png" alt="Senora Asset Management" /></a>
         <p class="footer-blurb">An India-centric, pure large-cap focused, long-only fund. SEBI-registered as a CAT III AIF.</p>
         <div class="socials">
-          <a href="#">YouTube</a><a href="#">X</a><a href="#">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/mridul-jalan-42537b2/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.8v2.05h.05c.53-1 1.83-2.05 3.76-2.05 4.02 0 4.76 2.65 4.76 6.1V23h-4v-6.6c0-1.57-.03-3.6-2.2-3.6-2.2 0-2.54 1.72-2.54 3.49V23h-4V8z"/></svg></a>
+          <a href="https://www.youtube.com/@StaGAIF" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.5 15.5v-7l6.5 3.5-6.5 3.5z"/></svg></a>
+          <a href="https://x.com/SenoraAIF" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24"><path d="M18.9 1.5h3.6l-7.9 9 9.3 12.3h-7.3l-5.7-7.5-6.5 7.5H1.2l8.4-9.6L.6 1.5H8l5.2 6.9 5.7-6.9zm-1.3 19.2h2L7.1 3.6H5l12.6 17.1z"/></svg></a>
         </div>
       </div>
       <div class="footer-col">
         <h5>Explore</h5>
         <a href="#about">About</a><a href="#stag">StaG</a>
-        <a href="#knowledge">Knowledge Hub</a><a href="#voices">Events</a>
+        <a href="knowledge.html">Knowledge Hub</a><a href="#voices">Events</a>
       </div>
       <div class="footer-col">
         <h5>Contact</h5>
         <a href="mailto:mriduljain@senoraamc.com" class="btn btn-solid email-btn">Email Us</a>
+        <p class="contact-line">📞 <a href="tel:+919137056225">+91 91370 56225</a></p>
         <p class="addr">WeWork Vaswani Chambers, 2nd Floor,<br />264-265, Dr Annie Besant Rd,<br />Worli, Mumbai 400030</p>
       </div>
     </div>
     <div class="footer-bottom">
       <div class="container">
         <p>© 2026 Senora Asset Management. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="disclaimer.html">Disclaimer</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
       </div>
     </div>
   </footer>
